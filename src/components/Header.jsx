@@ -1,8 +1,22 @@
-import React from 'react'
+import React from 'react';
+
+import Logo from '../assets/bbualdo-logo.svg'
 
 const Header = () => {
   return (
-    <div className="bg-pink-300">Header</div>
+    <header className="py-8">
+      <div className="container mx-auto">
+        <div className="flex justify-center items-center">
+          <a href='#'>
+            <img 
+            className=""
+            src={Logo} 
+            alt='bbualdo' />
+          </a>
+          <button className="btn btn-sm">Work with me</button>
+        </div>
+      </div>
+    </header>
   )
 }
 
