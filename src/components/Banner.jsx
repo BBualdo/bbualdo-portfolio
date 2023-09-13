@@ -51,7 +51,7 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{ once: false, amount: 0.7 }} 
             className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odio quod, porro, aspernatur mollitia explicabo laborum eligendi culpa ex ipsam a aut eveniet iusto ipsum quos voluptatem ad quisquam nisi? */}
+              Hi, I'm Sebastian. <br />In the internet I use <span className='text-accent font-bold text-xl'>{`{ BBualdo }`} </span>nickname.<br /> I'm glad you reached this page.<br /> <span className='h3 text-accent'>Let's dive in!</span>
             </motion.p>
             <motion.div 
             variants={fadeIn('up', 0.6)} 
