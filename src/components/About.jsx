@@ -171,7 +171,7 @@ const About = () => {
               activeClass='active'
               smooth={true}
               spy={true} 
-              className='btn btn-lg flex items-center'>Contact me</Link>
+              className='btn btn-lg cursor-pointer flex items-center'>Contact me</Link>
               <a href='#work' className='text-gradient btn-link'>
                 My Portfolio
               </a>

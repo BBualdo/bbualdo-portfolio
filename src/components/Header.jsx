@@ -9,7 +9,7 @@ const Header = () => {
     <header className='py-8'>
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
-          <a href='#'>
+          <a href='#home'>
             <img 
             src={Logo} 
             alt='bbualdo' 
@@ -21,7 +21,7 @@ const Header = () => {
           activeClass='active'
           smooth={true}
           spy={true} 
-          className='btn btn-sm flex items-center md:text-[14px] xs:text-[12px] xs:whitespace-nowrap'>
+          className='btn btn-sm cursor-pointer flex items-center md:text-[14px] xs:text-[12px] xs:whitespace-nowrap'>
             Work with me
           </Link>
         </div>
