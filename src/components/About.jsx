@@ -23,7 +23,7 @@ const About = () => {
     threshold: 0.1
   })
   return (
-    <section id='about' className='py-16 lg:section' ref={ref}>
+    <section id='about' className='lg:mb-64 py-16 lg:section' ref={ref}>
       <div className="container mx-auto">
         <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0'>
           {/* img */}
@@ -32,50 +32,50 @@ const About = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className='grid grid-cols-3 grid-rows-3 gap-x-6 lg:gap-x-10 gap-y-6 lg:gap-y-10 bg-about bg-contain bg-no-repeat h-[640px] xs:h-[320px] mix-blend-lighten bg-top items-center'>
+          className='grid grid-cols-3 grid-rows-3 gap-x-6 lg:gap-x-10 gap-y-6 lg:gap-y-10 bg-about bg-contain bg-no-repeat md:h-[640px] xs:h-[320px] mix-blend-lighten bg-top items-center'>
             <img
             src={HTMLIcon} 
             alt='HTML'
-            className='h-[100px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-red-500 rounded-[24px] lg:rounded-[40px]'
+            className='md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-red-500 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]'
             />
             <img
             src={CSSIcon}
             alt='CSS'
-            className='h-[100px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-blue-600 rounded-[24px] lg:rounded-[40px]'
+            className='md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-blue-600 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]'
             />
             <img
             src={JSIcon} 
             alt='JavaScript'
-            className='h-[100px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-yellow-500 rounded-[24px] lg:rounded-[40px]'
+            className='md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-yellow-500 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]'
             />
             <img
             src={ReactIcon}
             alt='React'
-            className='h-[100px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-cyan-300 rounded-[24px] lg:rounded-[40px]'
+            className='md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-cyan-300 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]'
             />
             <img
             src={TailwindIcon} alt='TailwindCSS'
-            className='h-[100px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-aqua rounded-[24px] lg:rounded-[40px]'
+            className='md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-aqua xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]'
             />
             <img
             src={VSCIcon} 
             alt='VSCode'
-            className='h-[100px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-blue-400 rounded-[24px] lg:rounded-[40px]'
+            className='md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-blue-400 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]'
             />
             <img
             src={GitIcon} 
             alt='Git'
-            className='h-[100px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-red-700 rounded-[24px] lg:rounded-[40px]'
+            className='md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-red-700 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]'
             />
             <img
             src={ViteIcon} 
             alt='Vite'
-            className='h-[100px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-violet-700 rounded-[24px] lg:rounded-[40px]'
+            className='md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-violet-700 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]'
             />
             <img
             src={FigmaIcon} 
             alt='Figma'
-            className='h-[100px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-green-600 rounded-[24px] lg:rounded-[40px]'
+            className='md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-green-600 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]'
             />
           </motion.div>
           {/* text */}
@@ -93,72 +93,72 @@ const About = () => {
             {/* stats */}
             <div className='grid grid-cols-3 grid-rows-2 gap-x-6 lg:gap-x-10 gap-y-6 lg:gap-y-10 mb-12'>
               <div>
-                <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
+                <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
                   ? <CountUp start={0} end={8} duration={5} delay={2} /> 
                   : null}/10
                 </div>
-                <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
+                <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
                   Time <br />
                   Managment
                 </div>
               </div>
               <div>
-                <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
+                <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
                   ? <CountUp start={0} end={10} duration={5} delay={2} /> 
                   : null}/10
                 </div>
-                <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
+                <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
                   Continuous <br />
                   Learning
                 </div>
               </div>
               <div>
-                <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
+                <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
                   ? <CountUp start={0} end={8} duration={5} delay={2} /> 
                   : null}/10
                 </div>
-                <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
+                <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
                   Critical Thinking
                 </div>
               </div>
               <div>
-                <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
+                <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
                   ? <CountUp start={0} end={9} duration={5} delay={2} /> 
                   : null}/10
                 </div>
-                <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
+                <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
                   Collaboration <br />
                   & Teamwork
                 </div>
               </div>
               <div>
-                <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
+                <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
                   ? <CountUp start={0} end={10} duration={5} delay={2} /> 
                   : null}/10
                 </div>
-                <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
+                <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
                   Creativity <br />
                   & Aesthetics
                 </div>
               </div>
               <div>
-                <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
+                <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
                   ? <CountUp start={0} end={9} duration={5} delay={2} /> 
                   : null}/10
                 </div>
-                <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
+                <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
                   Problem Solving
                 </div>
               </div>

@@ -31,7 +31,8 @@ const Nav = () => {
           to='work'
           activeClass='active'
           smooth={true}
-          spy={true} 
+          spy={true}
+          offset={-75}
           className='cursor-pointer xs:w-[48px] xs:h-[48px] md:w-[60px] md:h-[60px] flex items-center justify-center'>
             <BsBriefcase />
           </Link>

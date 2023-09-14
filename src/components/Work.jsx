@@ -22,10 +22,10 @@ const Work = () => {
           className='flex-1 flex flex-col items-center gap-y-12 mb-10 lg:mb-0 text-center'>
             {/* text */}
             <div>
-              <h2 className='h2 leading-tight text-accent'>My Latest <br />
+              <h2 className='h2 leading-tight text-accent'>My Latest<br />
               Work.
               </h2>
-              <p className='max-w-sm mb-8 lg:mb-8'>
+              <p className='max-w-sm lg:max-w-xl mb-8 lg:mb-8'>
                 Here you can browse my latest projects. These are result of my hard work, everything I'll learn is translated into new project to practice new skills. Click the button and see rest of them. It's like the journey of my progress.
               </p>
               <button className='btn btn-sm'>View all projects</button>
