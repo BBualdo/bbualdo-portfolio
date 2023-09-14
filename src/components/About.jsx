@@ -33,82 +33,46 @@ const About = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
           className='grid grid-cols-3 grid-rows-3 gap-x-6 lg:gap-x-10 gap-y-6 lg:gap-y-10 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top items-center'>
-            <motion.img
-            variants={fadeIn('right', 0.1)} 
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.3}}
+            <img
             src={HTMLIcon} 
             alt='HTML'
             className='h-[100px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-red-500 rounded-[24px] lg:rounded-[40px]'
             />
-            <motion.img
-            variants={fadeIn('right', 0.2)} 
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.3}}
+            <img
             src={CSSIcon}
             alt='CSS'
             className='h-[100px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-blue-600 rounded-[24px] lg:rounded-[40px]'
             />
-            <motion.img
-            variants={fadeIn('right', 0.3)} 
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.3}}
+            <img
             src={JSIcon} 
             alt='JavaScript'
             className='h-[100px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-yellow-500 rounded-[24px] lg:rounded-[40px]'
             />
-            <motion.img
-            variants={fadeIn('right', 0.4)} 
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.3}}
+            <img
             src={ReactIcon}
             alt='React'
             className='h-[100px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-cyan-300 rounded-[24px] lg:rounded-[40px]'
             />
-            <motion.img
-            variants={fadeIn('right', 0.5)} 
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.3}}
+            <img
             src={TailwindIcon} alt='TailwindCSS'
             className='h-[100px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-aqua rounded-[24px] lg:rounded-[40px]'
             />
-            <motion.img
-            variants={fadeIn('right', 0.6)} 
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.3}}
+            <img
             src={VSCIcon} 
             alt='VSCode'
             className='h-[100px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-blue-400 rounded-[24px] lg:rounded-[40px]'
             />
-            <motion.img
-            variants={fadeIn('right', 0.7)} 
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.3}}
+            <img
             src={GitIcon} 
             alt='Git'
             className='h-[100px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-red-700 rounded-[24px] lg:rounded-[40px]'
             />
-            <motion.img
-            variants={fadeIn('right', 0.8)} 
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.3}}
+            <img
             src={ViteIcon} 
             alt='Vite'
             className='h-[100px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-violet-700 rounded-[24px] lg:rounded-[40px]'
             />
-            <motion.img
-            variants={fadeIn('right', 0.9)} 
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.3}}
+            <img
             src={FigmaIcon} 
             alt='Figma'
             className='h-[100px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-green-600 rounded-[24px] lg:rounded-[40px]'
