@@ -46,16 +46,16 @@ const Work = () => {
               src={ticTacToe}
               className='group-hover:scale-125 transition-all duration-500'/>
               {/* pretitle */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+              <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-16 md:group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>React/CSS</span>
               </div>
               {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+              <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>Tic-Tac-Toe</span>
               </div>
             </div>
-             {/* image */}
-             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+            {/* image */}
+            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
@@ -63,11 +63,11 @@ const Work = () => {
               src={quizzical}
               className='group-hover:scale-125 transition-all duration-500'/>
               {/* pretitle */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+              <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-16 md:group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>React/API/CSS</span>
               </div>
               {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+              <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>Quizzical</span>
               </div>
             </div>
@@ -80,12 +80,12 @@ const Work = () => {
               src={spaceTourism}
               className='group-hover:scale-125 transition-all duration-500'/>
               {/* pretitle */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+              <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-16 md:group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>HTML/CSS/JS/JSON</span>
               </div>
               {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Space Tourism Multi-Page</span>
+              <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50'>
+                <span className='text-3xl text-white'>Space Tourism</span>
               </div>
             </div>
             {/* image */}
@@ -97,12 +97,12 @@ const Work = () => {
               src={todoList}
               className='group-hover:scale-125 transition-all duration-500'/>
               {/* pretitle */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+              <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-16 md:group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>HTML/CSS/JS</span>
               </div>
               {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Dark/Light Mode Todo List</span>
+              <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50'>
+                <span className='text-3xl text-white'>Todo List</span>
               </div>
             </div>
           </motion.div>

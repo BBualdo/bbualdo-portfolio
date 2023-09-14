@@ -20,7 +20,7 @@ import FigmaIcon from '../assets/Figma.svg';
 
 const About = () => {
   const [ref, inView] = useInView({
-    threshold: 0.5
+    threshold: 0.1
   })
   return (
     <section id='about' className='py-16 lg:section' ref={ref}>
@@ -96,7 +96,7 @@ const About = () => {
                 <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={8} duration={6} /> 
+                  ? <CountUp start={0} end={8} duration={5} delay={2} /> 
                   : null}/10
                 </div>
                 <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
@@ -108,7 +108,7 @@ const About = () => {
                 <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={10} duration={6} /> 
+                  ? <CountUp start={0} end={10} duration={5} delay={2} /> 
                   : null}/10
                 </div>
                 <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
@@ -120,7 +120,7 @@ const About = () => {
                 <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={8} duration={6} /> 
+                  ? <CountUp start={0} end={8} duration={5} delay={2} /> 
                   : null}/10
                 </div>
                 <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
@@ -131,7 +131,7 @@ const About = () => {
                 <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={9} duration={6} /> 
+                  ? <CountUp start={0} end={9} duration={5} delay={2} /> 
                   : null}/10
                 </div>
                 <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
@@ -143,7 +143,7 @@ const About = () => {
                 <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={10} duration={6} /> 
+                  ? <CountUp start={0} end={10} duration={5} delay={2} /> 
                   : null}/10
                 </div>
                 <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
@@ -155,7 +155,7 @@ const About = () => {
                 <div className='text-[40px] xs:text-[32px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={9} duration={6} /> 
+                  ? <CountUp start={0} end={9} duration={5} delay={2} /> 
                   : null}/10
                 </div>
                 <div className='font-primary text-sm xs:text-[12px] tracking-[2px]'>
@@ -164,7 +164,7 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'>Contact me</button>
+              <button className='btn xs:btn-sm md:btn-lg'>Contact me</button>
               <a href='#' className='text-gradient btn-link'>My Portfolio</a>
             </div>
           </motion.div>

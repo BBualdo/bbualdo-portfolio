@@ -14,7 +14,7 @@ const Header = () => {
             className='w-[250px]'
             />
           </a>
-          <button className='btn btn-sm'>Work with me</button>
+          <button className='btn btn-sm md:text-[14px] xs:text-[12px] xs:whitespace-nowrap'>Work with me</button>
         </div>
       </div>
     </header>
