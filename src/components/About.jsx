@@ -8,6 +8,8 @@ import { motion } from 'framer-motion';
 
 import { fadeIn } from '../variants';
 
+import { Link } from 'react-scroll';
+
 import HTMLIcon from '../assets/HTML.svg';
 import CSSIcon from '../assets/CSS.svg';
 import JSIcon from '../assets/JavaScript.svg';
@@ -164,8 +166,15 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn xs:btn-sm md:btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>My Portfolio</a>
+            <Link 
+              to='contact'
+              activeClass='active'
+              smooth={true}
+              spy={true} 
+              className='btn btn-lg flex items-center'>Contact me</Link>
+              <a href='#work' className='text-gradient btn-link'>
+                My Portfolio
+              </a>
             </div>
           </motion.div>
         </div>

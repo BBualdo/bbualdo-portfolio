@@ -10,6 +10,8 @@ import { motion } from 'framer-motion';
 
 import { fadeIn } from '../variants';
 
+import { Link } from 'react-scroll';
+
 const Banner = () => {
   return (
     <section id='home' className='min-h-[85vh] lg:min-h-[78vh] flex items-center'>
@@ -59,8 +61,13 @@ const Banner = () => {
             whileInView={"show"} 
             viewport={{ once: false, amount: 0.7 }} 
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>
+              <Link 
+              to='contact'
+              activeClass='active'
+              smooth={true}
+              spy={true} 
+              className='btn btn-lg flex items-center'>Contact me</Link>
+              <a href='#work' className='text-gradient btn-link'>
                 My Portfolio
               </a>
             </motion.div>
@@ -70,13 +77,13 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{ once: false, amount: 0.7 }} 
             className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='#'>
+              <a className='cursor-pointer' href='https://github.com/BBualdo' target='_blank'>
                 <FaGithub />
               </a>
-              <a href='#'>
+              <a className='cursor-pointer' href='https://www.youtube.com/@4tunes444' target='_blank'>
                 <FaYoutube />
               </a>
-              <a href='#'>
+              <a className='cursor-pointer' href='https://www.linkedin.com/in/sebastian-opozda-641b1127b/' target='_blank'>
                 <FaLinkedin />
               </a>
             </motion.div>

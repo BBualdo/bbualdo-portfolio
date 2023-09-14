@@ -1,6 +1,8 @@
 import React from 'react';
 
-import Logo from '../assets/bbualdo-logo.svg'
+import Logo from '../assets/bbualdo-logo.svg';
+
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -14,7 +16,14 @@ const Header = () => {
             className='w-[250px]'
             />
           </a>
-          <button className='btn btn-sm md:text-[14px] xs:text-[12px] xs:whitespace-nowrap'>Work with me</button>
+          <Link
+          to='contact'
+          activeClass='active'
+          smooth={true}
+          spy={true} 
+          className='btn btn-sm flex items-center md:text-[14px] xs:text-[12px] xs:whitespace-nowrap'>
+            Work with me
+          </Link>
         </div>
       </div>
     </header>

@@ -28,7 +28,9 @@ const Work = () => {
               <p className='max-w-sm lg:max-w-xl mb-8 lg:mb-8'>
                 Here you can browse my latest projects. These are result of my hard work, everything I'll learn is translated into new project to practice new skills. Click the button and see rest of them. It's like the journey of my progress.
               </p>
-              <button className='btn btn-sm'>View all projects</button>
+              <a className='btn btn-sm py-4' href='https://github.com/BBualdo?tab=repositories' target='_blank'>
+              View all projects
+              </a>
             </div>
           </motion.div>
           <motion.div 
@@ -38,7 +40,7 @@ const Work = () => {
           viewport={{ once: false, amount: 0.3}}
           className='flex-1 flex flex-col lg:grid-1 lg:grid lg:grid-cols-2 lg:grid-rows-2 gap-x-10 gap-y-10'>
             {/* image */}
-            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+            <a href='https://bbualdo-tictactoe-app.netlify.app' target='_blank' className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
@@ -53,9 +55,9 @@ const Work = () => {
               <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>Tic-Tac-Toe</span>
               </div>
-            </div>
+            </a>
             {/* image */}
-            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+            <a href='https://bbualdo-quizzical.netlify.app' target='_blank' className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
@@ -70,9 +72,9 @@ const Work = () => {
               <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>Quizzical</span>
               </div>
-            </div>
+            </a>
             {/* image */}
-            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+            <a href='https://bbualdo.github.io/space-tourism-website-main/' target='_blank' className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
@@ -87,9 +89,9 @@ const Work = () => {
               <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>Space Tourism</span>
               </div>
-            </div>
+            </a>
             {/* image */}
-            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+            <a href='https://bbualdo.github.io/todo-app/' target='_blank' className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
@@ -104,7 +106,7 @@ const Work = () => {
               <div className='absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>Todo List</span>
               </div>
-            </div>
+            </a>
           </motion.div>
         </div>
       </div>
