@@ -11,7 +11,7 @@ import todoList from '../assets/todo-list.png';
 
 const Work = () => {
   return (
-    <section id='work' className='section'>
+    <section id='work' className='py-16 lg:section'>
       <div className="container mx-auto">
         <div className='flex flex-col gap-y-10'>
           <motion.div 
@@ -25,7 +25,7 @@ const Work = () => {
               <h2 className='h2 leading-tight text-accent'>My Latest <br />
               Work.
               </h2>
-              <p className='max-w-sm mb-8 lg:mb-16'>
+              <p className='max-w-sm mb-8 lg:mb-8'>
                 Here you can browse my latest projects. These are result of my hard work, everything I'll learn is translated into new project to practice new skills. Click the button and see rest of them. It's like the journey of my progress.
               </p>
               <button className='btn btn-sm'>View all projects</button>
