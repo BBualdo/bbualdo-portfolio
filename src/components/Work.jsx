@@ -18,7 +18,7 @@ const Work = () => {
           variants={fadeIn('right', 0.3)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.3}}
+          viewport={{ once: true, amount: 0.3}}
           className='flex-1 flex flex-col items-center gap-y-12 mb-10 lg:mb-0 text-center'>
             {/* text */}
             <div>
@@ -37,7 +37,7 @@ const Work = () => {
           variants={fadeIn('left', 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.3}}
+          viewport={{ once: true, amount: 0.3}}
           className='flex-1 flex flex-col lg:grid-1 lg:grid lg:grid-cols-2 lg:grid-rows-2 gap-x-10 gap-y-10'>
             {/* image */}
             <a href='https://bbualdo-tictactoe-app.netlify.app' target='_blank' className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>

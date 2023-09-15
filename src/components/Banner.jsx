@@ -23,14 +23,14 @@ const Banner = () => {
             variants={fadeIn('up', 0.3)} 
             initial='hidden' 
             whileInView={'show'} 
-            viewport={{ once: false, amount: 0.7 }} className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>
+            viewport={{ once: true, amount: 0.7 }} className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>
               SEBASTIAN <span>OPOZDA</span>
             </motion.h1>
             <motion.div 
             variants={fadeIn('up', 0.4)} 
             initial='hidden' 
             whileInView={'show'} 
-            viewport={{ once: false, amount: 0.7 }} 
+            viewport={{ once: true, amount: 0.7 }} 
             className='mb-6 text-[36px] lg:text-[60px]  xs:text-[26px] font-secondary font-semibold uppercase leading-[1]'>
               <span className='text-white'>I am a</span>
               <TypeAnimation sequence={[
@@ -51,7 +51,7 @@ const Banner = () => {
             variants={fadeIn('up', 0.5)} 
             initial='hidden' 
             whileInView={'show'} 
-            viewport={{ once: false, amount: 0.7 }} 
+            viewport={{ once: true, amount: 0.7 }} 
             className='mb-8 max-w-lg mx-auto lg:mx-0'>
               Hi, I'm Sebastian. <br />In the internet I use <span className='text-accent font-bold text-xl'>{`{ BBualdo }`} </span>nickname.<br /> I'm glad you reached this page.<br /> <span className='h3 text-accent'>Let's dive in!</span>
             </motion.p>
@@ -59,7 +59,7 @@ const Banner = () => {
             variants={fadeIn('up', 0.6)} 
             initial="hidden"
             whileInView={"show"} 
-            viewport={{ once: false, amount: 0.7 }} 
+            viewport={{ once: true, amount: 0.7 }} 
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
               <Link 
               to='contact'
@@ -75,7 +75,7 @@ const Banner = () => {
             variants={fadeIn('up', 0.7)} 
             initial='hidden' 
             whileInView={'show'} 
-            viewport={{ once: false, amount: 0.7 }} 
+            viewport={{ once: true, amount: 0.7 }} 
             className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
               <a className='cursor-pointer' href='https://github.com/BBualdo' target='_blank'>
                 <FaGithub />
@@ -93,6 +93,7 @@ const Banner = () => {
           variants={fadeIn('down', 0.5)} 
           initial='hidden' 
           whileInView={'show'} 
+          viewport={{ once: true, amount: 0.5 }}
           className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
             <img 
             src={Avatar} 

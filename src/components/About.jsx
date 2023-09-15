@@ -33,7 +33,7 @@ const About = () => {
           variants={fadeIn('right', 0.3)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.3 }}
           className='grid grid-cols-3 grid-rows-3 gap-x-6 lg:gap-x-10 gap-y-6 lg:gap-y-10 bg-about bg-contain bg-no-repeat md:h-[640px] xs:h-[320px] mix-blend-lighten bg-top items-center'>
             <img
             src={HTMLIcon} 
@@ -85,7 +85,7 @@ const About = () => {
           variants={fadeIn('left', 0.5)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.3 }}
           className='flex-1'>
             <h2 className='h2 xs:text-[24px] text-accent'>About me.</h2>
             <h3 className='h3 mb-4 xs:text-[20px]'>I'm a Freelance Frontend Developer with passion to code and eager to learn.</h3>
@@ -98,7 +98,7 @@ const About = () => {
                 <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={8} duration={5} delay={2} /> 
+                  ? <CountUp start={0} end={8} duration={5} delay={1} /> 
                   : null}/10
                 </div>
                 <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
@@ -110,7 +110,7 @@ const About = () => {
                 <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={10} duration={5} delay={2} /> 
+                  ? <CountUp start={0} end={10} duration={5} delay={1} /> 
                   : null}/10
                 </div>
                 <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
@@ -122,7 +122,7 @@ const About = () => {
                 <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={8} duration={5} delay={2} /> 
+                  ? <CountUp start={0} end={8} duration={5} delay={1} /> 
                   : null}/10
                 </div>
                 <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
@@ -133,7 +133,7 @@ const About = () => {
                 <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={9} duration={5} delay={2} /> 
+                  ? <CountUp start={0} end={9} duration={5} delay={1} /> 
                   : null}/10
                 </div>
                 <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
@@ -145,7 +145,7 @@ const About = () => {
                 <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={10} duration={5} delay={2} /> 
+                  ? <CountUp start={0} end={10} duration={5} delay={1} /> 
                   : null}/10
                 </div>
                 <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>
@@ -157,7 +157,7 @@ const About = () => {
                 <div className='xs:text-[32px] md:text-[40px] font-tertiary text-gradient mb-2'>
                   {
                   inView 
-                  ? <CountUp start={0} end={9} duration={5} delay={2} /> 
+                  ? <CountUp start={0} end={9} duration={5} delay={1} /> 
                   : null}/10
                 </div>
                 <div className='font-primary xs:text-[12px] md:text-[14px] text-sm tracking-[2px]'>

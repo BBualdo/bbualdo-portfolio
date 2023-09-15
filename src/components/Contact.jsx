@@ -27,7 +27,7 @@ const Contact = () => {
       variants={fadeIn('right', 0.2)}
       initial="hidden"
       whileInView={"show"}
-      viewport={{ once: false, amount: 0.3}}
+      viewport={{ once: true, amount: 0.3}}
       className='fixed top-[20px] flex w-full justify-center items-center'>
         <div className='btn btn-sm flex items-center'>Copied to Clipboard!</div>
       </motion.div>}
@@ -38,7 +38,7 @@ const Contact = () => {
           variants={fadeIn('right', 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.3}}
+          viewport={{ once: true, amount: 0.3}}
           className='flex-1 flex justify-start items-center'>
             <div>
               <h4 className='h3 text-xl uppercase text-accent font-medium mb-2 tracking-wide'>Get in touch</h4>
@@ -52,7 +52,7 @@ const Contact = () => {
           variants={fadeIn('left', 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.3}}
+          viewport={{ once: true, amount: 0.3}}
           className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-center'>
             <h2 className='xs:h3 xs:uppercase sm:h2 text-center leading-10'>How do <span className='text-accent font-bold'>you</span> want to <span className='text-accent font-bold'>contact me</span>?</h2>
             <div className='flex xs:flex-col xs: gap-y-12 sm:flex-row items-center justify-center gap-x-12 w-full'>
