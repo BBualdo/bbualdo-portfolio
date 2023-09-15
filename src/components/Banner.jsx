@@ -31,7 +31,7 @@ const Banner = () => {
             initial='hidden' 
             whileInView={'show'} 
             viewport={{ once: true, amount: 0.7 }} 
-            className='mb-6 text-[36px] lg:text-[60px]  xs:text-[26px] font-secondary font-semibold uppercase leading-[1]'>
+            className='mb-6 xs:text-[26px] text-[36px] lg:text-[52px] font-secondary font-semibold uppercase leading-[1]'>
               <span className='text-white'>I am a</span>
               <TypeAnimation sequence={[
                 ' Frontend Developer',
