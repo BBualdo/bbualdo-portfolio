@@ -41,7 +41,7 @@ const Banner = () => {
               <span className="text-white">I am a</span>
               <TypeAnimation
                 sequence={[
-                  " Frontend Developer",
+                  " Developer",
                   2000,
                   " Musician",
                   2000,

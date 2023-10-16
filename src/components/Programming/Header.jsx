@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from "../../assets/bbualdo-logo.svg";
+import logoDev from "../../assets/bbualdo-logo.svg";
 
 import { Link } from "react-scroll";
 
@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <a href="#home">
-            <img src={Logo} alt="bbualdo" className="w-[250px]" />
+            <img src={logoDev} alt="bbualdo" className="w-[250px]" />
           </a>
           <Link
             to="contact"
