@@ -32,7 +32,7 @@ const Work = () => {
               </p>
               <a
                 className="btn_mm btn-sm py-4"
-                href="https://www.youtube.com/@4tunes444/videos"
+                href="https://www.youtube.com/@4tunes444"
                 target="_blank"
               >
                 View all projects

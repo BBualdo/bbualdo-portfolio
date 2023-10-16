@@ -2,8 +2,6 @@ import React from "react";
 
 import bbualdoMM from "../../assets/bbualdoMM.jpg";
 
-import { useInView } from "react-intersection-observer";
-
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../../variants";
@@ -11,9 +9,6 @@ import { fadeIn } from "../../variants";
 import { Link } from "react-scroll";
 
 const About = () => {
-  const [ref, inView] = useInView({
-    threshold: 0.1,
-  });
   return (
     <section
       id="about"
