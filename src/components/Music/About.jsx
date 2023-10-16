@@ -10,11 +10,7 @@ import { Link } from "react-scroll";
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="lg:mb-64 py-16 lg:section lg:mt-64"
-      ref={ref}
-    >
+    <section id="about" className="lg:mb-64 py-16 lg:section lg:mt-64">
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-10 lg:items-center lg:gap-x-20 lg:gap-y-0">
           {/* img */}
