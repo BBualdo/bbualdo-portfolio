@@ -23,6 +23,7 @@ module.exports = {
         primary: "#0a0a0a",
         accent: "#B809C3",
         aqua: "#0bb38b",
+        vice: "#3bace2",
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",

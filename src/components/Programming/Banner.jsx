@@ -1,8 +1,8 @@
 import React from "react";
 
-import Avatar from "../../assets/bbualdo-avatar.svg";
+import Avatar from "../../assets/bbualdo-avatar.jpg";
 
-import { FaGithub, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -43,9 +43,9 @@ const Banner = () => {
                 sequence={[
                   " Developer",
                   2000,
-                  " Musician",
+                  " Programmer",
                   2000,
-                  "n Artist",
+                  " Promise",
                   2000,
                 ]}
                 speed={200}
@@ -106,13 +106,6 @@ const Banner = () => {
               </a>
               <a
                 className="cursor-pointer"
-                href="https://www.youtube.com/@4tunes444"
-                target="_blank"
-              >
-                <FaYoutube />
-              </a>
-              <a
-                className="cursor-pointer"
                 href="https://www.linkedin.com/in/sebastian-opozda-641b1127b/"
                 target="_blank"
               >
@@ -128,7 +121,11 @@ const Banner = () => {
             viewport={{ once: true, amount: 0.5 }}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
           >
-            <img src={Avatar} alt="Avatar" className="w-[1000px]" />
+            <img
+              src={Avatar}
+              alt="Avatar"
+              className="w-full h-[384px] xl:h-[482px] rounded-full border-4 border-accent hover:shadow-2xl hover:shadow-accent transition-shadow duration-200"
+            />
           </motion.div>
         </div>
       </div>
