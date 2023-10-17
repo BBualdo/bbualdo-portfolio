@@ -23,7 +23,7 @@ const Work = () => {
                 <br />
                 Work.
               </h2>
-              <p className="max-w-sm lg:max-w-xl mb-8 lg:mb-8">
+              <p className="max-w-sm lg:max-w-xl mb-8 lg:mb-8 md:text-[24px]">
                 Here you can browse my best projects. Every song is like new
                 story. Every song is treated personally, with the rule:{" "}
                 <span className="text-vice font-bold">

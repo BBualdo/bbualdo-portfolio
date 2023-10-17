@@ -36,11 +36,11 @@ const About = () => {
             className="flex-1 lg:mt-16"
           >
             <h2 className="h2 xs:text-[24px] text-vice">About me.</h2>
-            <h3 className="h3 mb-4 xs:text-[20px]">
+            <h3 className="h3 mb-4 xs:text-[20px] md:text-[32px]">
               I'm Freelance Music Producer, Songwriter and Mix/Mastering
               Engineer.
             </h3>
-            <p className="mb-6 xs:text-[16px]">
+            <p className="mb-6 xs:text-[16px] md:text-[24px]">
               My journey started from playing piano when I was 5yo. I played few
               years and... left it. I was into pop music on VIVA or 4FunTV, not
               some boring exercices. Then, when I was 13yo, I fell in love with
