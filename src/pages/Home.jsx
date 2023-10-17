@@ -19,7 +19,7 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-site bg-no-repeat bg-cover overflow-hidden h-[100vh]">
+    <div className="bg-site bg-no-repeat bg-cover overflow-hidden min-h-[100vh]">
       <div className="flex items-center justify-center ">
         <img
           src={logoDev}
