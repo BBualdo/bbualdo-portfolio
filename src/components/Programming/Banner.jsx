@@ -86,9 +86,15 @@ const Banner = () => {
               >
                 Contact me
               </Link>
-              <a href="#work" className="text-gradient btn-link">
+              <Link
+                to="work"
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                className="cursor-pointer text-gradient btn-link"
+              >
                 My Portfolio
-              </a>
+              </Link>
             </motion.div>
             <motion.div
               variants={fadeIn("up", 0.7)}

@@ -67,9 +67,15 @@ const About = () => {
               >
                 Contact me
               </Link>
-              <a href="#work" className="text-gradient_mm btn-link">
+              <Link
+                to="work"
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                className="cursor-pointer text-gradient_mm btn-link"
+              >
                 My Portfolio
-              </a>
+              </Link>
             </div>
           </motion.div>
         </div>
