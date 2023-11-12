@@ -68,7 +68,7 @@ const Contact = () => {
             </h2>
             <div className="flex xs:flex-col xs: gap-y-12 sm:flex-row items-center justify-center gap-x-12 w-full">
               <a
-                href="https://www.linkedin.com/in/sebastian-opozda-641b1127b/"
+                href="https://www.linkedin.com/in/sebastian-opozda/"
                 target="_blank"
                 className="btn cursor-pointer p-4"
               >

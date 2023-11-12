@@ -112,7 +112,7 @@ const Banner = () => {
               </a>
               <a
                 className="cursor-pointer"
-                href="https://www.linkedin.com/in/sebastian-opozda-641b1127b/"
+                href="https://www.linkedin.com/in/sebastian-opozda/"
                 target="_blank"
               >
                 <FaLinkedin />
