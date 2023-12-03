@@ -18,7 +18,7 @@ import TailwindIcon from "../../assets/TailwindCSS.svg";
 import TypeScriptIcon from "../../assets/TypeScript.svg";
 import GitIcon from "../../assets/Git.svg";
 import SassIcon from "../../assets/Sass.svg";
-import FigmaIcon from "../../assets/Figma.svg";
+import NextJSIcon from "../../assets/NextJS.svg";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -57,10 +57,11 @@ const About = () => {
               className="md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-cyan-300 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]"
             />
             <img
-              src={TailwindIcon}
-              alt="TailwindCSS"
-              className="md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-aqua xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]"
+              src={NextJSIcon}
+              alt="NextJS"
+              className="md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-white xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]"
             />
+
             <img
               src={TypeScriptIcon}
               alt="TypeScript"
@@ -77,9 +78,9 @@ const About = () => {
               className="md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-pink-500 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]"
             />
             <img
-              src={FigmaIcon}
-              alt="Figma"
-              className="md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-green-600 xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]"
+              src={TailwindIcon}
+              alt="TailwindCSS"
+              className="md:h-[130px] xs:h-[80px] lg:h-[130px] xl:h-[160px] shadow-lg shadow-aqua xs:rounded-[20px] md:rounded-[28px] lg:rounded-[40px]"
             />
           </motion.div>
           {/* text */}
