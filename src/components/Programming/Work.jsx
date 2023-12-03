@@ -3,13 +3,34 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../../variants";
-
-import pomodoro from "../../assets/pomodoro.png";
-import ticTacToe from "../../assets/tic-tac-toe.png";
-import audiophile from "../../assets/audiophile.png";
-import kanban from "../../assets/kanban.png";
+import { programmingData } from "../../data/data";
 
 const Work = () => {
+  const portfolio = programmingData.map((project) => (
+    <a
+      key={project.key}
+      href={project.href}
+      target="_blank"
+      className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
+    >
+      {/* overlay */}
+      <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+      {/* img */}
+      <img
+        src={project.imageUrl}
+        className="group-hover:scale-[150%] transition-all duration-500 mt-2 scale-[125%] md:translate-y-5"
+      />
+      {/* pretitle */}
+      <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-16 md:group-hover:bottom-24 transition-all duration-500 z-50">
+        <span className="text-gradient">{project.technologies}</span>
+      </div>
+      {/* title */}
+      <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50">
+        <span className="text-3xl text-white">{project.name}</span>
+      </div>
+    </a>
+  ));
+
   return (
     <section id="work" className="py-16 lg:section">
       <div className="container mx-auto">
@@ -50,98 +71,7 @@ const Work = () => {
             viewport={{ once: true, amount: 0.3 }}
             className="flex-1 flex flex-col lg:grid-1 lg:grid lg:grid-cols-2 lg:grid-rows-2 gap-x-10 gap-y-10"
           >
-            {/* image */}
-            <a
-              href="https://bbualdo-kanban.vercel.app/"
-              target="_blank"
-              className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
-            >
-              {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <img
-                src={kanban}
-                className="group-hover:scale-[250%] transition-all duration-500 mt-2 scale-[125%] md:translate-y-5"
-              />
-              {/* pretitle */}
-              <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-16 md:group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">
-                  NextJS/TypeScript/Redux Toolkit/TailwindCSS
-                </span>
-              </div>
-              {/* title */}
-              <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Kanban</span>
-              </div>
-            </a>
-            {/* image */}
-            <a
-              href="https://bbualdo-pomodoro.vercel.app/"
-              target="_blank"
-              className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
-            >
-              {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <img
-                src={pomodoro}
-                className="group-hover:scale-150 transition-all duration-500 mt-6 scale-125"
-              />
-              {/* pretitle */}
-              <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-16 md:group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">React/TypeScript/Sass</span>
-              </div>
-              {/* title */}
-              <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Pomodoro App</span>
-              </div>
-            </a>
-            {/* image */}
-            <a
-              href="https://bbualdo-audiophile.netlify.app"
-              target="_blank"
-              className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
-            >
-              {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <img
-                src={audiophile}
-                className="group-hover:scale-125 transition-all duration-500"
-              />
-              {/* pretitle */}
-              <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-16 md:group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">React/JSON/TailwindCSS</span>
-              </div>
-              {/* title */}
-              <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">
-                  Audiophile e-commerce
-                </span>
-              </div>
-            </a>
-            {/* image */}
-            <a
-              href="https://bbualdo-tictactoe-app.netlify.app"
-              target="_blank"
-              className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
-            >
-              {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <img
-                src={ticTacToe}
-                className="group-hover:scale-125 transition-all duration-500 mt-2 scale-110"
-              />
-              {/* pretitle */}
-              <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-16 md:group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">React/CSS</span>
-              </div>
-              {/* title */}
-              <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Tic-Tac-Toe</span>
-              </div>
-            </a>
+            {portfolio}
           </motion.div>
         </div>
       </div>
