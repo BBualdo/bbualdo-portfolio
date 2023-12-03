@@ -1,6 +1,6 @@
 import React from "react";
 
-import logoMM from "../../assets/bbualdo-logo-music.png";
+import logoMM from "/assets/bbualdo-logo-music.png";
 
 import { Link } from "react-scroll";
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import logoDev from "../../assets/bbualdo-logo.svg";
+import logoDev from "/assets/bbualdo-logo.svg";
 
 import { Link } from "react-scroll";
 

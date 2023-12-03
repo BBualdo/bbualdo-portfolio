@@ -10,15 +10,15 @@ import { fadeIn } from "../../variants";
 
 import { Link } from "react-scroll";
 
-import HTMLIcon from "../../assets/HTML.svg";
-import CSSIcon from "../../assets/CSS.svg";
-import JSIcon from "../../assets/JavaScript.svg";
-import ReactIcon from "../../assets/React.svg";
-import TailwindIcon from "../../assets/TailwindCSS.svg";
-import TypeScriptIcon from "../../assets/TypeScript.svg";
-import GitIcon from "../../assets/Git.svg";
-import SassIcon from "../../assets/Sass.svg";
-import NextJSIcon from "../../assets/NextJS.svg";
+import HTMLIcon from "/assets/HTML.svg";
+import CSSIcon from "/assets/CSS.svg";
+import JSIcon from "/assets/JavaScript.svg";
+import ReactIcon from "/assets/React.svg";
+import TailwindIcon from "/assets/TailwindCSS.svg";
+import TypeScriptIcon from "/assets/TypeScript.svg";
+import GitIcon from "/assets/Git.svg";
+import SassIcon from "/assets/Sass.svg";
+import NextJSIcon from "/assets/NextJS.svg";
 
 const About = () => {
   const [ref, inView] = useInView({

@@ -1,6 +1,6 @@
 import React from "react";
 
-import bbualdoMM from "../../assets/bbualdoMM.jpg";
+import bbualdoMM from "/assets/bbualdoMM.jpg";
 
 import { motion } from "framer-motion";
 

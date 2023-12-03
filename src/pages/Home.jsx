@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
-import logoDev from "../assets/bbualdo-logo.svg";
-import logoMM from "../assets/bbualdo-logo-music.png";
+import logoDev from "/assets/bbualdo-logo.svg";
+import logoMM from "/assets/bbualdo-logo-music.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 

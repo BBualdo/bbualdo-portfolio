@@ -1,6 +1,6 @@
 import React from "react";
 
-import Avatar from "../../assets/bbualdo-avatar.jpg";
+import Avatar from "/assets/bbualdo-avatar.jpg";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 

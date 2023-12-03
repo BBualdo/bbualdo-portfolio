@@ -1,6 +1,6 @@
 import React from "react";
 
-import Avatar from "../../assets/bbualdo-avatar.jpg";
+import Avatar from "/assets/bbualdo-avatar.jpg";
 
 import { FaYoutube, FaInstagram } from "react-icons/fa";
 
