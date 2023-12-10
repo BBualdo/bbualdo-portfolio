@@ -1,14 +1,14 @@
 export const programmingData = [
   {
     key: 0,
-    href: "https://class-cars-llc.vercel.app/",
+    href: "https://classcarsllc.com",
     imageUrl: "/assets/classcars.png",
     technologies: "NextJS/TypeScript/TailwindCSS",
     name: "ClassCarsLLC Website",
   },
   {
     key: 1,
-    href: "https://bbualdo-kanban.vercel.app/",
+    href: "https://bbualdo-kanban.vercel.app",
     imageUrl: "/assets/kanban.png",
     technologies: "NextJS/TypeScript/Redux Toolkit/TailwindCSS",
     name: "Kanban",
