@@ -11,22 +11,26 @@ const Work = () => {
       key={project.key}
       href={project.href}
       target="_blank"
-      className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
+      className="group bg-black relative overflow-hidden border-2 border-white/50 rounded-xl"
     >
       {/* overlay */}
       <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
       {/* img */}
       <img
         src={project.imageUrl}
-        className="group-hover:scale-[150%] transition-all duration-500 mt-2 scale-[125%] md:translate-y-5"
+        className="group-hover:scale-[125%] transition-all duration-500 mt-2 scale-[100%] md:translate-y-5"
       />
       {/* pretitle */}
       <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-16 md:group-hover:bottom-24 transition-all duration-500 z-50">
-        <span className="text-gradient">{project.technologies}</span>
+        <span className="text-gradient xs:max-md:text-sm">
+          {project.technologies}
+        </span>
       </div>
       {/* title */}
       <div className="absolute -bottom-full xs:left-8 md:left-12 xs:group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-700 z-50">
-        <span className="text-3xl text-white">{project.name}</span>
+        <span className="text-3xl text-white xs:max-md:text-xl">
+          {project.name}
+        </span>
       </div>
     </a>
   ));
